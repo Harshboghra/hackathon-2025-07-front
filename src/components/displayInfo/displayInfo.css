@@ -1,0 +1,6 @@
+.display-info-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.display-info-table tr:nth-child(even) {
+  background-color: white;
+}

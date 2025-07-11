@@ -1,0 +1,89 @@
+{
+  "name": "happyFlow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.10.1",
+    "@casl/ability": "^6.7.1",
+    "@casl/react": "^3.1.0",
+    "@hookform/error-message": "^2.0.1",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.2.77",
+    "@types/react-dom": "^18.2.25",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "file-saver": "^2.0.5",
+    "fuse.js": "^7.0.0",
+    "graphql": "^16.8.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lodash": "^4.17.21",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primereact": "10.5.1",
+    "quill": "^1.3.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.3",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.1.0",
+    "react-redux": "^9.1.1",
+    "react-router-dom": "^6.22.3",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.75.0",
+    "survey-react-ui": "^1.9.139",
+    "typescript": "^4.9.5",
+    "vite-plugin-environment": "^1.1.3",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "purgeCss": "node runPurgeCss.cjs",
+    "test": "jest --passWithNoTests",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" --ignore-path .prettierignore",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage .",
+    "test:debug": "jest --inspect-brk --runInBand --no-cache"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "jest": "^29.7.0",
+    "jest-localstorage-mock": "^2.4.26",
+    "purgecss": "^7.0.2",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "vite": "^5.2.12"
+  }
+}
